@@ -1,0 +1,31 @@
+<header class="header-section clearfix">
+    <div class="site-navbar">
+        <a routerLink="home" class="site-logo">
+            <img src="../../../assets/img/logo.png" alt="logo bee">
+        </a>
+
+        <div class="header-right" style=" height: 86px;">
+            <button class=" search-switch "><i class="fa fa-map-marker fa-2x"></i></button>
+        </div>
+
+        <nav class="site-nav-menu ">
+            <ul>
+                <li routerLinkActive="active "><a [routerLink]="['/home']">Inicio</a></li>
+                <li routerLinkActive="active "><a [routerLink]="['/about']">Nosotros</a></li>
+                <li routerLinkActive="active "><a [routerLink]="['/services']">Servicios</a></li>
+                <li routerLinkActive="active "><a [routerLink]="['/contacts']">Contactos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="search-model ">
+    <div class="h-100 d-flex align-items-center justify-content-center ">
+        <div class="search-close-switch ">+</div>
+        <form class="search-model-form ">
+            <h4 align="center " style="color: #fff; ">Ubicación</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.1922420869292!2d-78.99588717085261!3d-2.882867660460983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwNTInNTguMyJTIDc4wrA1OSc0My4yIlc!5e0!3m2!1ses-419!2sec!4v1591314543630!5m2!1ses-419!2sec "
+                width="600 " height="450 " frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
+        </form>
+    </div>
+</div>
